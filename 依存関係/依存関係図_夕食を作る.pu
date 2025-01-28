@@ -1,0 +1,17 @@
+@startuml 夕食を作る
+start
+:全員からお金を受け取る;
+:スーパーで食材を買う;
+fork
+:ご飯を炊く;
+fork again
+:スープを作る;
+fork again
+:カレーを作る;
+end fork
+
+:食器を用意する;
+:全ての料理を盛り付ける;
+:配膳する;
+stop
+@enduml
