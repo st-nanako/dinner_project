@@ -1,0 +1,7 @@
+@startuml サラダを作る
+start
+    : サラダを買う;
+    : サラダを盛り付ける;
+    : 配膳する;
+stop
+@enduml
